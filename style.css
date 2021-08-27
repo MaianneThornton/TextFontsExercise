@@ -1,5 +1,14 @@
-html {
-  font-family: 'Orbitron', sans-serif;}
+/* BONUS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+  font-family: 'Orbitron', sans-serif;
+  /* BONUS */
+  background-image: url(starTrek.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgba(255,255,255, 0.6);
+}
+
   span {
     font-weight: bold;
   }
@@ -18,10 +27,14 @@ html {
 
 h2 {
   font-size: 2.5em;
+  /* BONUS */
+  text-align: center;
 }
 
 li {
- line-height: 2;
+  line-height: 2;
+  /* BONUS */
+  font-size: 1em;
 }
 
 #characters {
@@ -30,4 +43,11 @@ li {
 
 h4 {
   letter-spacing: 15px;
+  /* BONUS */
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+}
+h3 {
+  /* BONUS */
+  text-align: center;
 }
